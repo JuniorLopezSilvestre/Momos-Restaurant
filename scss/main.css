@@ -1,4 +1,12 @@
 /*----mixin media queries--*/
+::selection {
+  color: #bbb;
+  background: #f5e634;
+}
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
